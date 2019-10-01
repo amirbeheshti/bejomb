@@ -1,0 +1,31 @@
+<div class="container-fluid">
+    <img src="assets\Bejonb_Logo_final.png" alt="brand_name_logo" class="brand_logo d-block m-auto">
+    <img src="assets\Bejonb_Character.png" alt="brand_logo" class="brand_logo d-block m-auto">
+    <h3 class="main_color text-center mt-3 mb-5">بجنب، واسه اولیناست !</h3>
+    <form >
+
+        <div class="row">
+
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="group">
+                    <input type="text" name="username" [(ngModel)]="user" #username required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>نام کابری</label>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="group">
+                    <input type="password" name="password" [(ngModel)]="some" #password required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>رمز عبور</label>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="submit-btn text-center" (click)="login_btn()" [disabled]="!some || !user">ورود کاربر</button>
+        </div>
+    </form>
+
+</div>
