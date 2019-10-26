@@ -1,0 +1,36 @@
+.order_page{
+  height : 100vh;
+    background-color:#3d4149;
+}
+.title_txt{
+  padding-top:4px;
+  display: block;
+  font-size: 2.5rem;
+}
+.brand-part{
+    display:flex;
+    padding:1rem 2rem;
+
+}
+.brand_name{
+color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+}
+.main_part{
+  height:200px;
+}
+.dp-date-picker.dp-material .dp-picker-input{
+  width: auto !important;
+  background-color: transparent !important;
+  border: none;
+  color: white;
+  font-size: 30px;
+  padding-right: 1rem;
+}
+
+
+
+
+

@@ -2,6 +2,21 @@ body{
     direction: rtl;
     font-family: 'b yekan' !important;
 }
+*{
+    box-sizing: border-box;
+}
 .main_color{
     color: #f2641a;
 }
+.title{
+  background-color:#f2641a;
+}
+.main_back-color{
+    background-color:#4a484d;
+}
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

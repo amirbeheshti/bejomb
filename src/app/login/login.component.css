@@ -15,9 +15,6 @@
 
 
 /*Design input box */
-* {
-  box-sizing: border-box;
-}
 
 .container {
   font-family: 'Roboto';

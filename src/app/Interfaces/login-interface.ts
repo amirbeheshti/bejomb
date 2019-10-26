@@ -1,6 +1,6 @@
 export interface LoginInterface {
-    mobile:number,
-    password:number
+    mobile:string,
+    password:string
     // "success": number,
     // "user_message": string,
     // "developer_message": string,
